@@ -50,6 +50,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 50px 0px 0px 0px;
 }
 #first-half{
     display: flex;
@@ -134,4 +135,43 @@ header{
     align-items: center;
     border-radius: 40px;
     border: 1px solid #000000;
+}
+#trust{
+    color: #ffffff;
+    text-align: center;
+}
+/*Main*/
+
+.headings{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding: 50px 0px;
+}
+#top-artist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    background-color: #2e2e2e;
+    padding: 15px;
+    border-radius: 20px; 
+    text-align: center;
+    color: #ffffff;
+}/*
+.card img{
+    position: relative;
+    top: -70px;
+}*/
+.card div{
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 0px 50px;
+}
+.card div a{
+    text-decoration: none;
+    color: #ffffff;
 }
