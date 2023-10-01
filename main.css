@@ -1,0 +1,40 @@
+body{
+    background-color:#232323;
+    padding: 24px 52px;
+    font-family: prompt;
+}
+body nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+#logo{
+    font-family: bree-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+#active{
+    color: #ffffff;
+}
+nav a{
+    text-decoration: none;
+    color: #545454;
+    font-size: 16px;
+    margin: 15px;
+}
+#signin{
+    background-color: #dbdbdb;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+#signin a{
+    color: #000000;
+}
+nav a:hover{
+    color: #ffffff;
+}
+.top-icon{
+    width: 30px;
+    height: 30px;
+}
