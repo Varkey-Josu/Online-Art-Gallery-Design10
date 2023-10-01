@@ -178,10 +178,45 @@ header{
 
 #gallery{
     display: grid;
-    grid-template-rows: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
     grid-template-columns: 300px 300px 300px;
 }
 #gallery div img{
     width: 300px;
     height: 300px;
+}
+
+#auction{
+    margin: 100px 0px;
+}
+#marquee{
+    background-color: #2e2e2e;
+    width: 100%;
+    padding: 1px;
+}
+#marquee p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+#auction-card{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#auction-card div{
+    background-color: #dbdbdb;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-align: left;
+}
+#headss{
+    font-size: 24px;
+    font-weight: 500;
+}
+#price{
+    background-color: #b8b8b8;
+    width: 100px;
+    padding: 2px;
 }
