@@ -175,3 +175,13 @@ header{
     text-decoration: none;
     color: #ffffff;
 }
+
+#gallery{
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 300px 300px 300px;
+}
+#gallery div img{
+    width: 300px;
+    height: 300px;
+}
