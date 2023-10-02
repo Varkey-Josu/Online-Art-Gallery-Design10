@@ -178,6 +178,8 @@ header{
 
 #gallery{
     display: grid;
+    align-items: center;
+    justify-content: center;
     grid-template-rows: 300px 300px;
     grid-template-columns: 300px 300px 300px;
 }
