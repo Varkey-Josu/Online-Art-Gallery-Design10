@@ -220,3 +220,26 @@ header{
     width: 100px;
     padding: 2px;
 }
+#Community{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2e2e;
+    padding: 20px;
+}
+#phase1{
+    color: #ffffff;
+}
+#phase1 div{
+    background-color: #dbdbdb;
+    border-radius: 50px;
+    width: 300px;
+    text-align: center;
+    margin: 30px 0px;
+    padding: 10px;
+}
+#join{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
