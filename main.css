@@ -3,7 +3,7 @@
 
 body{
     background-color:#232323;
-    padding: 24px 52px;
+    padding: 24px 52px 0px;
     font-family: prompt;
 }
 body nav{
@@ -242,4 +242,22 @@ header{
     text-decoration: none;
     color: #000000;
     font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2e2e;
+    margin: 50px 0px 0px;
+    padding: 30px;
+    color: #ffffff;
+    border-radius: 20px;
+}
+footer div a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #dbdbdb;
 }
