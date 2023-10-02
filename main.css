@@ -234,7 +234,7 @@ header{
 }
 #Community{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     flex-wrap: wrap;
     background-color: #2e2e2e;
@@ -242,6 +242,7 @@ header{
 }
 #phase1{
     color: #ffffff;
+    margin: 0px 30px 10px 15px;
 }
 #phase1 div{
     background-color: #dbdbdb;
