@@ -104,6 +104,7 @@ header{
     display:flex;
     justify-content: space-around;
     align-items: left;
+    margin: 20px;
     padding: 15px;
     border-radius: 30px;
 }
@@ -124,6 +125,7 @@ header{
     background-color: #dbdbdb;
     border-radius: 10px;
     padding: 15px;
+    margin: 20px;
 }
 #second-half img{
     width: 300px;
@@ -155,7 +157,7 @@ header{
 }
 #top-artist{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -165,6 +167,7 @@ header{
     border-radius: 20px; 
     text-align: center;
     color: #ffffff;
+    margin: 10px;
 }/*
 .card img{
     position: relative;
@@ -209,7 +212,7 @@ header{
 #auction-card{
     margin: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -218,6 +221,7 @@ header{
     border-radius: 20px;
     padding: 10px 30px;
     text-align: left;
+    margin: 10px;
 }
 #headss{
     font-size: 24px;
@@ -270,8 +274,4 @@ footer div a{
     align-items: center;
     text-decoration: none;
     color: #dbdbdb;
-}
-
-@media (width<1030) {
-    
 }
